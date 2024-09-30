@@ -2,7 +2,7 @@
 
 An unknown car insurance company has released its annual data, which includes detailed information on policyholder's demographics, vehicle specifications, driving history, and whether a claim was filed. This project leverages a machine learning model to predict whether the policyholder will file a claim based on these attributes. Additionally, the project identifies the key factors influencing claim likelihood, providing insights that can enhance pricing strategies, improve risk assessment, and streamline the insurance application process through automation.
 
-This project will enhance the company's performance in the following key areas:
+This project is aimed to improve the company's performance in the following key areas:
 - **Loss Ratio** 
 - **Marketing Strategy**
 - **Labor Cost Reduction**
