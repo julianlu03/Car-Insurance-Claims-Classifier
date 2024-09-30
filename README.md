@@ -29,6 +29,8 @@ Other than OUTCOME, the dataset consists of 18 features in the following categor
 
 Driving experience consistently proved to be the best indicator of whether a claim is filed, with vehicle year being a strong second, in both model performance and the correlation. Our Gradient Boost Classifier model achieved an accuracy of 85.6%, generalizing well with unseen data and may prove useful in automating the application process if integrated. The ML model can also be used to improve pricing strategies by more accurately determining how risky a policyholder will be in the future and adjusting insurance premiums accordingly. More information should be gathered about the policyholders regarding vehicle brand,  
 
+PowerBI dashboard can be found [here](https://app.powerbi.com/groups/me/reports/4cfc561a-77f1-4c41-b08f-1100f948a388/ed711182fcaa385c89ec?experience=power-bi)
+
 # Recommendations:
 - Work with the marketing team to tailor advertisements and lower rates towards potential customers with more driving experience and newer vehicles
 - Consider offering varied rates for driving safety (assessed via telematics) targetted at policyholders with lower driving experience
