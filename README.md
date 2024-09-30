@@ -25,21 +25,22 @@ Other than **OUTCOME**, the dataset consists of 18 features in the following cat
 
 ### Overview of Findings:
 
-Driving experience consistently proved to be the best indicator of whether a claim is filed, with vehicle year being a strong second. Our Gradient Boost Classifier model achieved an accuracy of 85.6%, generalizing well with unseen data and can be used for streamlining the insurance application process, especially for underwriters. The model can also be used to improve pricing strategies by more accurately determining how risky a policyholder will be in the future and adjusting insurance premiums accordingly. Overall, the model will prove useful for improving risk assessment for current and potential customers through its analysis of policyholder features.
+Driving experience consistently proved to be the best indicator of whether a claim is filed, with vehicle year being a strong second. Our Gradient Boost Classifier model achieved an accuracy of 85.6%, generalizing well with unseen data and can be used for increasing efficiency in the insurance application process. The model can also be used to improve pricing strategies by more accurately determining how risky a policyholder will be in the future and adjusting insurance premiums accordingly. Overall, the model will prove useful for improving the company's loss ratio and risk assessment for current and potential policyholders.
 
 PowerBI dashboard can be found [here](https://app.powerbi.com/groups/me/reports/4cfc561a-77f1-4c41-b08f-1100f948a388/ed711182fcaa385c89ec?experience=power-bi) or viewed below:
 
 ![Alt text](https://github.com/julianlu03/Car-Insurance-Claims-Classifier/blob/main/car_insurance_dashboard.PNG?raw=true)
-### Recommendations:
-- Work with the marketing team to tailor advertisements and lower rates towards potential customers with more driving experience and newer vehicles
+
+# Recommendations:
+
+Based on the insights uncovered during analysis and the results of our model, the following recommendations have been provided:
+- Work with the marketing team to tailor advertisements and lower rates towards potential customers with more driving experience and newer vehicles. This will increase customer rentention through lower rates and benefit the company with low risk policholders
 - Consider offering varied rates for driving safety (assessed via telematics) targetted at policyholders with lower driving experience
   - This does two things:
     - Rewards safer drivers with lower premiums, benefiting both the driver and the company by retaining low risk policyholders
-    - Leverages overconfidence (a common cognitive bias) in less safe drivers, allowing the company to justify higher premiums for those with lower driving experience, ultimately reducing the risk of taking on high-risk policyholders
-- Work with underwriters to implement the model with their work to improve efficiency and reduce labor costs
-
-
-
+    - Leverages overconfidence (cognitive bias) in less safe drivers, allowing the company to justify higher premiums for those with lower driving experience, ultimately reducing the risk of taking on high-risk policyholders
+- Work with underwriters to implement the model for the purposes of automating the screening process
+  - Implementing this model can automatically screen out high-risk candidates before they reach an underwriter, which not only enhances productivity but also reduces labor costs for the company by streamlining the workflow
 
 
 
