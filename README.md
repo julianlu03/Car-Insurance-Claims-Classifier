@@ -31,6 +31,7 @@ Driving experience consistently proved to be the best indicator of whether a cla
 
 PowerBI dashboard can be found [here](https://app.powerbi.com/groups/me/reports/4cfc561a-77f1-4c41-b08f-1100f948a388/ed711182fcaa385c89ec?experience=power-bi)
 
+![Alt text](https://github.com/julianlu03/Car-Insurance-Claims-Classifier/blob/main/car_insurance_dashboard.PNG?raw=true)
 # Recommendations:
 - Work with the marketing team to tailor advertisements and lower rates towards potential customers with more driving experience and newer vehicles
 - Consider offering varied rates for driving safety (assessed via telematics) targetted at policyholders with lower driving experience
