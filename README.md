@@ -3,17 +3,19 @@
 An unknown car insurance company has released its annual data, which includes detailed information on policyholder's demographics, vehicle specifications, driving history, and whether a claim was filed. This project leverages a machine learning model to predict whether the policyholder will file a claim based on these attributes. Additionally, the project identifies the key factors influencing claim likelihood, providing insights that can enhance pricing strategies, improve risk assessment, and streamline the insurance application process through automation.
 
 This project is aimed to improve the company's performance in the following key areas:
-- **Loss Ratio** 
-- **Marketing Strategy**
+- **Loss Ratio**
 - **Labor Cost Reduction**
+- **Marketing Strategy**
 
 # Data Structure
 
-**OUTCOME** is the binary target feature in the dataset; 0 means no claim was filed and 1 means a claim was filed.
+There are **10,000 instances** in the dataset, with 19 features.
+
+**claim_made** is the binary target feature in the dataset; 0 means no claim was filed and 1 means a claim was filed.
 
 The target feature has a skewed distribution in the data, with negative claims making up 68.7% of total claims. This is addressed via oversampling during the project, which fixes the class inbalance when training the model. 
 
-Other than OUTCOME, the dataset consists of 18 features in the following categories:
+Other than claim_made, the dataset consists of 18 features in the following categories:
 
 **Demographic Information:** Age, gender, education, etc.
 
